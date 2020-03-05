@@ -40,7 +40,7 @@
             </div>
 
             <h2>Search options</h2>
-
+<!--
             <section id="providers">
                 <script type="text/handlebars-template" id="providers-template">
                     <table>
@@ -57,7 +57,7 @@
                     </table>
                 </script>
             </section>
-
+-->
             <header id="modal-footer">
                 <a href="https://github.com/jeroenpardon/"><span class="iconify" data-icon="mdi-github-box"></span></a>
                 <a href="https://materialdesignicons.com/"><span class="iconify" data-icon="mdi-material-design"></a></span>
@@ -86,8 +86,8 @@
                             <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                         </div>
                         <div class="apps_text">
-                            <a href="https://{{url}}">{{name}}</a>
-                            <span>{{url}}</span>
+                            <a href="https://{{url}}" target="_blank">{{name}}</a>
+                            <span>{{desc}}</span>
                         </div>
                     </div>
                 {{/apps}}                         
@@ -97,13 +97,13 @@
 
          <section id="links">
             <script type="text/handlebars-template" id="links-template">
-            <h3>Bookmarks</h3>
+            <h3>Quick Links</h3>
             <div id="links_loop">
                 {{#bookmarks}}
                     <div id="links_item">
                         <h4>{{category}}</h4>
                         {{#links}}
-                            <a href="{{url}}" class="theme_color-border theme_text-select">{{name}}</a>
+                            <a href="{{url}}" class="theme_color-border theme_text-select" target="_blank">{{name}}</a>
                         {{/links}}
                     </div>
                 {{/bookmarks}}
@@ -112,9 +112,10 @@
         </section>
     </main>
 
-    <div id="modal_init">
+
+<div id="modal_init">
         <a class="btn" href="#modal">
-            <span class="iconify icon" data-icon="mdi-xbox-controller-menu"></span>
+            <span class="iconify modalicon" data-icon="mdi-xbox-controller-menu"></span>
         </a>
     </div>
 
