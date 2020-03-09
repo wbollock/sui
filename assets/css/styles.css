@@ -76,7 +76,6 @@ a{
 }
 
 a:hover{
-	text-decoration: underline;
 	webkit-text-decoration-color: var(--color-text-acc);
 	webkit-text-decoration-skip: true;
 }
@@ -227,7 +226,19 @@ table a{
 	flex-direction: row;
 	flex-wrap: wrap;
 	height: 64px;
-	margin: 0;
+	margin: 5px;
+	padding-left:10px;
+}
+
+.apps_item:hover{
+	box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.1);
+	background-color: rgba(0, 0, 0, 0.016);}
+}
+
+.appbtn {
+	display:block;
+	width:100%;
+	overflow: hidden;
 }
 
 .apps_text{
@@ -240,6 +251,10 @@ table a{
 	font-size: 1em;
 	font-weight: 500;
 	text-transform: uppercase;
+}
+
+.apps_text a.desc {
+	font-weight:400;
 }
 
 .apps_text span{

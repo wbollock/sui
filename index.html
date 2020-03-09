@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SUI</title>
+    <title>CCI Start Page</title>
     <meta charset="utf-8">
     <meta http-equiv="Default-Style" content="">
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
@@ -82,6 +82,32 @@
             <div id="apps_loop">
                 {{#apps}}
                     <div class="apps_item">
+                        
+                        <div class="apps_icon">
+                            <a href="https://{{url}}" target="_blank">
+                            <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
+                            </a>
+                        </div>
+                        <div class="apps_text">
+                            <a href="https://{{url}}" target="_blank">{{name}}</a>
+                            <a href="https://{{url}}" target="_blank" class="desc"><span>{{desc}}</span></a>
+                        </div>
+                        
+                    </div>
+                {{/apps}}                         
+            </div>
+            </script>
+        </section>
+
+
+<!--
+        <section id="apps">
+            <script type="text/handlebars-template" id="apps-template">
+            <h3>Applications</h3>
+            <div id="apps_loop">
+                {{#apps}}
+                    <div class="apps_item">
+                        
                         <div class="apps_icon">
                             <span class="iconify icon" data-icon="mdi-{{icon}}"></span>
                         </div>
@@ -89,11 +115,15 @@
                             <a href="https://{{url}}" target="_blank">{{name}}</a>
                             <span>{{desc}}</span>
                         </div>
+                        
                     </div>
                 {{/apps}}                         
             </div>
             </script>
         </section>
+
+    -->
+
 
          <section id="links">
             <script type="text/handlebars-template" id="links-template">
