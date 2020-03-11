@@ -7,7 +7,7 @@
         {"name":"Sling","url":"sling.is/shifts","icon":"calendar-clock","desc":"Scheduling"},
         {"name":"Libre","url":"libre.cci.fsu.edu","icon":"table-eye","desc":"Server monitoring"},
         {"name":"Graylog","url":"servermgr.cci.fsu.edu:9000","icon":"file-document-edit-outline","desc":"Log server"},
-        {"name":"Gogs","url":"servermgr.cci.fsu.edu:3000","icon":"silverware-fork","desc":"Git repo"},
+        {"name":"Gogs","url":"servermgr.cci.fsu.edu:3000","icon":"git","desc":"Git repo"},
         {"name":"IPAM","url":"ipam.cci.fsu.edu","icon":"web","desc":"DNS records"}
     ]
 }
