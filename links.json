@@ -21,6 +21,10 @@
                 "category": "ITS",
                 "links": [
                   {
+                    "name": "Service Center",
+                    "url": "https://cas.fsu.edu/cas/login?service=https://crm.omni.fsu.edu/psp/sprdcm/EMPLOYEE/EMPL/h/?tab=DEFAULT"
+                  },
+                  {
                     "name": "Work Order",
                     "url": "https://its-fmp-02.its.fsu.edu/Forms/WO_Form.php"
                   },
@@ -28,6 +32,7 @@
                     "name": "Repair Ticket",
                     "url": "https://its-fmp-02.its.fsu.edu/Forms/Repair_Form.php"
                   }
+
                 ]
               },
               {
