@@ -1,14 +1,12 @@
 {
     "apps" : [
-        {"name":"osTicket","url":"support.cci.fsu.edu/scp","icon":"face-agent","desc":"Support tickets"},
-        {"name":"Wiki","url":"support.cci.fsu.edu/wiki","icon":"text-box-outline","desc":"Documentation"},
-        {"name":"MDT Status","url":"img.cci.fsu.edu","icon":"image-area-close","desc":"Imaging & drivers"},
-        {"name":"Lansweeper","url":"inventory.cci.fsu.edu:82","icon":"qrcode-scan","desc":"Asset inventory"},
-        {"name":"Sling","url":"sling.is/shifts","icon":"calendar-clock","desc":"Scheduling"},
-        {"name":"Libre","url":"libre.cci.fsu.edu","icon":"table-eye","desc":"Server monitoring"},
-        {"name":"Graylog","url":"servermgr.cci.fsu.edu:9000","icon":"file-document-edit-outline","desc":"Log server"},
-        {"name":"IPAM","url":"ipam.cci.fsu.edu","icon":"web","desc":"DNS records"},
-        {"name":"AWX","url":"servermgr.cci.fsu.edu:8000","icon":"ansible","desc":"Ansible Automation"},
-        {"name":"Grafana","url":"servermgr.cci.fsu.edu:7000","icon":"chart-areaspline","desc":"Visualizations"}
+        {"name":"Radarr","url":"plex.boll:7878","icon":"face-agent","desc":"Support tickets"},
+        {"name":"Sonarr","url":"plex.boll:8989","icon":"text-box-outline","desc":"Documentation"},
+        {"name":"Deluge","url":"plex.boll:8112","icon":"image-area-close","desc":"Imaging & drivers"},
+        {"name":"BackupPC","url":"plex.boll:8080","icon":"qrcode-scan","desc":"Asset inventory"},
+        {"name":"Jackett","url":"plex.boll:9117","icon":"calendar-clock","desc":"Scheduling"},
+        {"name":"Prometheus","url":"plex.boll:9090","icon":"file-document-edit-outline","desc":"Log server"},
+        {"name":"cAdvisor","url":"plex.boll:9200","icon":"web","desc":"DNS records"},
+        {"name":"Grafana","url":"plex.boll:3030","icon":"chart-areaspline","desc":"Visualizations"}
     ]
 }
