@@ -3,9 +3,9 @@
         {"name":"Radarr","url":"http://plex.boll:7878","icon":"face-agent","desc":"Movies"},
         {"name":"Sonarr","url":"http://plex.boll:8989","icon":"text-box-outline","desc":"Shows"},
         {"name":"Deluge","url":"http://plex.boll:8112","icon":"image-area-close","desc":"Torrents"},
-        {"name":"Pihole","url":"http://pi.hole","icon":"qrcode-scan","desc":"Backups"},
+        {"name":"Pihole","url":"http://pi.hole","icon":"qrcode-scan","desc":"DNS"},
         {"name":"BackupPC","url":"http://plex.boll:8080","icon":"qrcode-scan","desc":"Backups"},
-        {"name":"Grafana","url":"http://plex.boll:3030","icon":"chart-areaspline","desc":"Visualizations"},
+        {"name":"Grafana","url":"http://plex.boll:3000","icon":"chart-areaspline","desc":"Visualizations"},
         {"name":"Jackett","url":"http://plex.boll:9117","icon":"calendar-clock","desc":"Indexers"},
         {"name":"Prometheus","url":"http://plex.boll:9090","icon":"file-document-edit-outline","desc":"Monitoring"},
         {"name":"cAdvisor","url":"http://plex.boll:9200","icon":"web","desc":"Docker Containers"}
